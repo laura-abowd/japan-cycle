@@ -1,0 +1,126 @@
+// BIG CARD
+.big-card {
+  // overflow: hidden;
+  height: 270px;
+  width: 90%;
+  background: yellow;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  border-radius: 2px;
+  position: relative;
+}
+
+.big-card.small {
+  height: 250px;
+  width: 80%;
+}
+
+.info-list-dashboard {
+  font-family: Open Sans;
+  padding: 0px 15px 0px 15px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.big-card img {
+  height: 100%;
+  width: 50%;
+  object-fit: cover;
+  position: absolute;
+  right: 0;
+  padding: 16px;
+  background-color: white;
+}
+
+.big-card h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  position: absolute;
+  top:20px;
+  left:25px;
+}
+
+.info-list {
+  font-family: Open Sans;
+  padding: 30px 15px 0px 35px;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.big-card ul li {
+  list-style-type: none;
+
+  line-height: 1.4;
+  // opacity: .7;
+  margin-bottom: 0;
+  margin-top: 8px;
+  position:relative;
+  zoom: 1;
+  display: inline;
+}
+
+.big-card .big-card-infos {
+  width: 50%;
+  padding: 16px;
+}
+
+
+// HTML
+// <div class="big-card">
+//   <img src="https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/skateboard.jpg" />
+//   <div class="big-card-infos">
+//     <h2>Product name</h2>
+//     <p>Product description with <strong>relevant info</strong> only.</p>
+//   </div>
+// </div>
+
+
+
+// SMALL CARD
+
+.small-card {
+  background: #090909;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 2px;
+  overflow: hidden;
+  color: white;
+  .card-price {
+    font-size: 18px;
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+}
+
+.small-card:hover {
+  box-shadow: 0 15px 16px 0 rgba(0,0,0,0.2);
+  .card-price {
+    color: #FFED31;
+    text-shadow: 1px 1px 2px #090909, 0 0 1em #FFED31, 0 0 0.2em #FFED31;
+  }
+}
+
+.small-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 8px;
+  background-color: white
+}
+
+.small-card {
+  h3 {
+    font-size: 24px;
+  }
+  .small-card-infos h5 {
+   font-size: 18px;
+   margin: 16px;
+  }
+margin: 16px 16px 0px 16px;
+}
+
+#cyclephoto {
+    text-decoration: none;
+    color: white;
+  }
