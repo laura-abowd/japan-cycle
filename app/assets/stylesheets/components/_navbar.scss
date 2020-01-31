@@ -43,6 +43,7 @@
 
 // navbar button
 .nav-item {
+
   font-size: 1.25rem;
   font-family: Numans;
   padding-right: 10px;
@@ -53,6 +54,7 @@
 }
 
 .nav-link {
+   color: $light-gray;
   &:hover {
     text-decoration: underline solid $yellow;
   }
