@@ -1,9 +1,9 @@
 .search-form-control {
   position: relative;
-  box-shadow: 5px 5px 1px 1px yellow;
 }
 
 .search-form-control .btn {
+  background-color: yellow;
   position: absolute;
   top: 8px;
   bottom: 8px;
@@ -12,24 +12,13 @@
 
 .search-form-control .form-control {
   height: 3.5rem;
-  box-shadow: 5px 5px 3px 3px yellow;
-}
-
-.search-form-control .form-control:focus {
-  outline: none !important;
-  // box-shadow: 5px 5px 3px 3px yellow;
 }
 
 .form-control:focus {
   border-color: yellow;
 }
 
-#yellow-form {
-  border: none;
-  width: 100%;
-}
-
 .form-control {
     border: 1px solid black;
-    width: 50%;
+    width: 80%;
 }
