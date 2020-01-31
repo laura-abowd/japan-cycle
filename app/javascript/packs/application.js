@@ -17,7 +17,7 @@
 
 import 'bootstrap';
 
-import { loadDynamicBannerText } from '../pages/home';
+import { loadDynamicBannerText } from '../components/banner';
 loadDynamicBannerText("#banner-typed-text");
 
 import { initSweetalert } from '../plugins/init_sweetalert';
