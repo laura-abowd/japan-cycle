@@ -1,17 +1,14 @@
 <div class="stacked-container">
   <div class="hero-text-container">
-    <h1 id="tagline">Shop for your next cycle with ease </h1>
-    <!-- <div class="overlay"> -->
       <div class="search-content">
-        <p>Search cycles</p>
+    <h1>Find your <br> next cycle </h1>
+        <p>Search, sells, or purchase your next cycle in Japan.</p>
+        <p class="search-cycles-text">Search cycles</p>
         <%= simple_form_for :search, url: cycles_path, method: :get do |f| %>
         <div class="search-form-control form-group">
           <input id="yellow-form" class="form-control string required" type="text" name="query" id="banner-typed-text" />
-          <div class="yellow-search-btn">
-          <button name="button" type="submit" class="btn btn-flat">
-            <i class="fas fa-search"></i> Search
-          </button>
-          </div>
+          <p class="search-cycles-text">Enter a color, category, or brand</p>
+          <button name="button" type="submit" class="btn btn-flat yellow-search-btn">Search</button>
           <% end %>
         </div>
       </div>

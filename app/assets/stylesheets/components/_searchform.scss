@@ -2,23 +2,21 @@
   position: relative;
 }
 
-.search-form-control .btn {
-  background-color: yellow;
-  position: absolute;
-  top: 8px;
-  bottom: 8px;
-  right: 8px;
-}
-
-.search-form-control .form-control {
-  height: 3.5rem;
-}
-
-.form-control:focus {
-  border-color: yellow;
-}
-
+// inherited form height
 .form-control {
-    border: 1px solid black;
-    width: 80%;
+    border: 3px solid black;
+    width: 100%;
+}
+
+.yellow-search-btn {
+  font-size: 1.125rem;
+  font-weight: bold;
+  background-color: yellow;
+  border: 3px solid black;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.search-cycles-text {
+  margin: 0;
 }
