@@ -17,8 +17,7 @@
 }
 
 .stacked-container {
-  position: absolute;
-  z-index: 1000;
+  // position: absolute;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -44,3 +43,31 @@
   font-family: 'Homemade Apple', cursive;
 }
 
+@media screen and (max-width: 760px) {
+  .hero-img-background {
+    width: 100%;
+    height: 300px;
+    position: relative;
+  }
+  .hero-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+  }
+  .stacked-container {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+  }
+  .hero-text-container {
+    width: 100%;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .hero-img-background {
+    height: 250px;
+  }
+}
